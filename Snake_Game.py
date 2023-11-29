@@ -116,7 +116,7 @@ def initializeGame():
     global width, height, snake, ai
     snake = Snake()
     ai = Machine(snake, width, height)
-    ai.q_table = np.loadtxt("Q_table_3000.txt")
+    ai.q_table = np.loadtxt("./assets/Q_table_3000.txt")
     resetGame()
 
 
